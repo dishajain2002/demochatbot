@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+
+        .demo{
+            width: 100%;
+            min-height: 600px;
+            border-radius: 20px;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+        }
+        .upperBox{
+            background-color: rgb(249,117,20);
+            min-height: 270px;
+            border-radius: 20px 20px 0 0;
+            color: white;
+        }
+
+        .upperBox p{
+            font-weight: 700;
+        }
+
+        .bottomBox{
+            background-color: white;
+            border:1px solid rgb(218, 218, 218);
+            border-radius: 10px;
+            min-height: 390px;
+            position: absolute;
+            bottom: 20px;
+            left:17px;
+        }
+
+        .bot{
+            width:70px;
+            height: 70px;
+            background-color: rgb(255,114,1);
+            border-radius: 50%;
+            position: relative;
+            bottom: 35px;
+            left: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.568);
+        }
+
+        .bot i{
+            font-size: 28px;
+            color: white;
+            /* padding: 20px 00px; */
+        }
+
+        h6 span{
+            display: inline-block;
+            width: 18px;
+            color: tomato;
+            background-color: rgba(241, 241, 121, 0.795);
+            text-align: center;
+            border-radius: 50%;
+            font-weight: 900;
+        }
+
+        .ulList{
+            list-style: none
+        }
+
+        .ulList li::before{
+            content: "\2022"; 
+            color: rgb(255,141,43);
+            display: inline-block; 
+            width: 20px;
+            margin-left: 0px
+        }
+
+        .ulList li{
+            border:1px solid rgb(218, 218, 218);
+            list-style-position: inside;
+            padding: 0px 10px;
+            margin: 8px 0px;
+            border-radius: 10px;
+            font-size: 30px;
+        }
+
+        .ulList span{
+            font-size: 13px;
+            position: relative;
+            bottom: 5px;
+        }
+
+        .button{
+            border:1px solid rgb(180, 180, 180);
+            padding: 10px 20px;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px rgb(223, 223, 223);
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-md-7 col-lg-5 demo p-0">
+                <div class="col-12 upperBox px-5 pt-3">
+                    <h3>IRIS</h3>
+                    <h5>Hello</h5>
+                    <p>I am Iris, a Virtual Assistant<br>How may I help you?</p>
+                </div>
+                <div class="col-11 bottomBox m-auto">
+                    <div class="bot row justify-content-center align-items-center">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="col-12 faq">
+                        <h6>Frequently Asked Questions&nbsp;&nbsp; <span> ?</span></h6>
+                        <ul class="ulList">
+                            <li><span>Can I redeem my FB before the original item?</span></li>
+                            <li><span>How do I pay my Credit card bill?</span></li>
+                            <li><span>How can I get my Account Statement</span></li>
+                            <li><span>What is the tenure of Fixed Deposit?</span></li>
+                        </ul>
+                        <div class="row justify-content-center">
+                            <div class="button">
+                                <p class="m-0">Start a New Conversation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script></body>
+</html>
